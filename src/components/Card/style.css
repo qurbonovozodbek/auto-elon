@@ -29,7 +29,7 @@ body {
 }
 .box:hover {
     cursor: pointer;
-    transition: 0.4s;
+    transition: all 0.4s;
     background: linear-gradient(150deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 00.1));
 }
 .box img {
@@ -42,7 +42,7 @@ body {
     transition: all;
 }
 .box img:hover {
-    transition: 0.6s;
+    transition: all 0.6s;
     transform: scale(140%);
 }
 .box h2 {
